@@ -1,0 +1,9 @@
+# 本地 agent 规则文件，仅本机开发用
+AGENTS.md
+
+# 测试临时文件
+err*.log
+
+# 系统杂物
+.DS_Store
+Thumbs.db

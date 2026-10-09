@@ -1,0 +1,13 @@
+{
+  "name": "pi-opencode-zen-free",
+  "version": "0.1.0",
+  "description": "pi extension that injects OpenCode CLI client headers so pi can use OpenCode Zen free-tier models",
+  "keywords": ["pi-package"],
+  "license": "MIT",
+  "pi": {
+    "extensions": ["./extensions/opencode-zen-free.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
